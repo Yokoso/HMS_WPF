@@ -24,5 +24,11 @@ namespace HMS
         {
             InitializeComponent();
         }
+
+        private void Button_Click_Show_Calendar(object sender, RoutedEventArgs e)
+        {
+            HMS_Calendar HMS_Calendar = new HMS_Calendar();
+            this.NavigationService.Navigate(HMS_Calendar);
+        }
     }
 }

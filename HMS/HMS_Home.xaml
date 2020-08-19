@@ -21,12 +21,9 @@
 
         <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Trebuchet MS" 
         FontWeight="Bold" FontSize="50" Foreground="White" Grid.Row="1">
-            <Label.Background>
-                <ImageBrush/>
-            </Label.Background>
             Hotel Management System
         </Label>
-        <Button Grid.Row="2" Width="360" Height="50" HorizontalAlignment="Center">Enter HMS</Button>
+        <Button Grid.Row="2" Width="360" Height="50" HorizontalAlignment="Center" Click="Button_Click_Show_Calendar">Enter HMS</Button>
 
         <Grid.Background>
             <ImageBrush ImageSource="/HMS_Img_Main.jpg" Opacity="0.9" />
